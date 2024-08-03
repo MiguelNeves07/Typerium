@@ -1,9 +1,3 @@
- ____ _____     ____  ____  
-|  _ \_   _|   | __ )|  _ \ 
-| |_) || |_____|  _ \| |_) |
-|  __/ | |_____| |_) |  _ < 
-|_|    |_|     |____/|_| \_\
-
 Typerium
 
 Typerium é um jogo de prática de digitação que oferece modos de jogo Infinito e Normal. Jogue em qualquer plataforma diretamente do site e melhore suas habilidades de digitação de forma divertida e desafiadora!
@@ -34,12 +28,6 @@ Licença
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 -
-
- _____ _   _       _   _ ____  
-| ____| \ | |     | | | / ___| 
-|  _| |  \| |_____| | | \___ \ 
-| |___| |\  |_____| |_| |___) |
-|_____|_| \_|      \___/|____/ 
 
 Typerium
 
