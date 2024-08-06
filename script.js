@@ -7,6 +7,7 @@ const famousQuotes = [
     "do not find fault, find a remedy",
     "persistence is the path to success",
     "to know how to wait is the greatest secret of success",
+    "lorem ipsum dolor sit amet consectetur adipiscing elit sed aliquet elementum vulputate integer luctus a enim vel porta nunc ultrices mi ac lectus dignissim vitae aliquam lorem malesuada integer varius suscipit mollis nulla placerat mi vitae gravida blandit est massa lobortis leo vitae tincidunt nunc arcu quis mauris aenean venenatis sapien et magna tempor nec vehicula urna molestie sed sit amet magna non nisi auctor ultrices ac eget sem etiam nulla lorem mattis vitae posuere sed facilisis eu eros nunc fermentum neque quam id ornare massa venenatis non",
 	"the quick brown fox jumps over the lazy dog",
 	"the greatest glory in living lies not in never falling, but in rising every time we fall",
 	"in the end, we will remember not the words of our enemies, but the silence of our friends",
