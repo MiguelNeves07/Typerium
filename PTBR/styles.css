@@ -1,60 +1,85 @@
+/* Estilo base */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
     margin: 0;
+    overflow: hidden; /* Evita a rolagem em caso de margens externas */
 }
 
+/* Container centralizado */
 .container {
     text-align: center;
     background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Efeito de elevação no hover */
+.container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Texto para digitação */
 #text-to-type {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 20px;
+    color: #333;
+    transition: color 0.3s ease;
 }
 
+/* Área de texto */
 textarea {
     width: 100%;
-    height: 100px;
-    margin-top: 20px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    height: 120px;
+    margin-top: 15px;
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
     box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    outline: none;
+}
+
+/* Botão */
 button {
     margin-top: 20px;
-    padding: 10px 20px;
+    padding: 12px 24px;
     font-size: 16px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: #007bff;
     color: #fff;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 button:hover {
     background-color: #0056b3;
+    transform: scale(1.05);
 }
 
+/* Classes de estado */
 .correct {
-    color: green;
+    color: #28a745;
 }
 
 .incorrect {
-    color: red;
+    color: #dc3545;
 }
 
 .pending {
-    color: #333;
+    color: #6c757d;
 }
