@@ -4,9 +4,9 @@ const famousQuotes = [
     "nada é permanente exceto a mudança",
     "um pequeno jabuti xereta viu dez cegonhas felizes",
     "três pratos de trigo para três tigres tristes três tigres tristes para três pratos de trigo quem conseguirá resolver a confusão entre o trigo e os tigres sem tropeçar nas palavras e sem confundir o prato que pertence a cada tigre triste",
-	"o rato roeu a roupa do rei de roma a rainha com raiva resolveu remendar mas o rato depressa a roupa voltou a roer",
-	"sabendo o que sei e sabendo o que sabes e o que não sabes nem eu sei nem tu sabes quem sabe o que saberemos",
-	"um ninho de mafagafos com sete mafagafinhos quem desmafagafizar o ninho de mafagafos bom desmafagafizador será"
+    "o rato roeu a roupa do rei de roma a rainha com raiva resolveu remendar mas o rato depressa a roupa voltou a roer",
+    "sabendo o que sei e sabendo o que sabes e o que não sabes nem eu sei nem tu sabes quem sabe o que saberemos",
+    "um ninho de mafagafos com sete mafagafinhos quem desmafagafizar o ninho de mafagafos bom desmafagafizador será"
 ];
 
 let currentQuote = "";
@@ -53,9 +53,9 @@ function updateTextDisplay(input, correctText) {
 }
 
 function checkInput() {
-    const input = inputText.value;
-    const correctText = currentQuote.substring(0, input.length);
-    if (input === currentQuote) {
+    const input = inputText.value.toLowerCase().trim();
+    const correctText = currentQuote.substring(0, input.length).toLowerCase();
+    if (input === currentQuote.toLowerCase()) {
         stopTimer();
         const timeTaken = ((new Date() - startTime) / 1000).toFixed(1);
         const wordsPerMinute = ((currentQuote.split(' ').length / timeTaken) * 60).toFixed(1);
